@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.idosinchuk</groupId>
 	<artifactId>igor-spring-boot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>igor-spring-boot</name>
 	<description>Demo project for Containerize Spring Boot app and deploy to K8s locally with Docker, Helm, Kubectl &amp; Rancher Desktop</description>
 	<properties>
