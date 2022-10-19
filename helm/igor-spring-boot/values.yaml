@@ -6,7 +6,8 @@ replicaCount: 1
 
 image:
   repository: idosinchuk/igor-spring-boot
-  pullPolicy: IfNotPresent
+  # Use IfNotPresent (Download the image just when is not present) or Always (Download the image always).
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
